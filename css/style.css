@@ -1,0 +1,325 @@
+@charset "utf-8";
+:root{
+    --main-color:black;
+    --sub-color:gray;
+    --sencord-color:
+
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font:16px/1.5 normal "Noto Sans KR" , "Nanum Gothic", sans-serif;
+    list-style:none;
+}
+
+.container{
+    max-width: 94.79166666666667vw;
+    margin: 0 auto;
+    height: 6rem;
+
+}
+
+.logo{
+ margin: 0 5rem 0 0;
+}
+
+.video_text{
+    /* background-color: aqua; */
+    color:white;
+    padding:15.2rem;
+}
+
+.video_text>h2{
+    font-size: 3rem;
+    text-align: center;
+    line-height:3.2;
+}
+
+.video_text>p{
+     font-size: 1.4rem;
+     text-align: center;
+}
+/*======================================== /header====================================*/
+
+.Innostage{
+  max-width:94.79166666666667vw;
+  margin-top:9.7rem;
+
+}
+.inno1-text>h2{
+    font-size:2rem;
+    font-weight:bold;
+}
+.inno1-text>p{
+color:gray
+}
+.inno_menu{
+    padding: 1rem 0;
+    margin:0 9rem;
+}
+.inno1{
+    background-color: #d4d7d7;
+    border-radius: 10%;
+    width:400px;
+    height: 400px;
+}
+.inno-side{
+    padding:3rem 2rem;
+}
+.inno-side:hover{
+    color:#01B18B;
+
+}
+.inno-side>h3{
+    font-size:2.5rem;
+    padding:1rem .3rem ;
+}
+
+.inno-side>p{
+    padding:1rem .3rem;
+    font-size:1.2rem;
+    color:white;
+}
+
+.inno1-img{
+    padding:9rem 0;
+    margin: 1rem 0 ;
+}
+
+.inno2{
+    background-color: #d4d7d7;
+    border-radius: 10%;
+    width:400px;
+    height: 400px;
+}
+.inno-side2{
+    padding:3rem 2rem;
+}
+.inno-side2>h3{
+    font-size:2.5rem;
+    padding:1rem .3rem ;
+}
+
+.inno-side2>p{
+    padding:1rem .3rem;
+    font-size:1.2rem;
+    color:white;
+}
+
+.inno2-img{
+    padding:9rem 0;
+    margin: 1rem 0 ;
+}
+
+.inno3{
+    background-color: #d4d7d7;
+    border-radius: 10%;
+    width:400px;
+    height: 400px;
+}
+.inno-side3{
+    padding:3rem 2rem;
+}
+.inno-side3>h3{
+    font-size:2.5rem;
+    padding:1rem .3rem ;
+}
+
+.inno-side3>p{
+    padding:1rem .3rem;
+    font-size:1.2rem;
+    color:white;
+}
+
+.inno3-img{
+    padding:9rem 0;
+    margin: 1rem 0 ;
+}
+
+/*===================================/innostage====================*/
+.arti-per{
+    max-width:1440vw;
+    background-color: #01B18B;
+    color:white;
+}
+.cou_text{
+    margin-top: 4rem ;
+    margin: 3rem 3rem ; 
+}
+
+.cou_text>h2{
+    width:500px;
+    margin: 1rem auto;
+    font-size:2rem;
+    font-weight:bold;
+}
+.count-countainer{
+    display:grid;
+    width:1200px;
+    height:600px;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.count1{
+    grid-column: 1 / 2; /* 컬럼 : 가로*/
+    grid-row: 1 / 3;   /* 컬럼 : 세로 ?*/
+
+}
+.count2{
+ margin:4rem .5rem 0 13rem ;
+ width: 500px;
+
+}
+
+.count3{
+    margin: 4rem .5rem 0 .5rem;
+    width:500px;
+}
+
+.count4{
+    margin: 0 .5rem 0  13rem;
+}
+
+.count5{
+    margin: 0 .5rem 0 .5rem;
+}
+/*=======================/Perfirnabce=====================*/
+.collaboration{
+}
+.coll-text{
+    margin: 3rem 3rem;
+}
+
+.coll-text>h2{
+    margin: 1rem auto;
+    font-size: 2rem;
+}
+
+.coll_coulmn{
+
+}
+.grid-container{
+  display:grid;
+  width:600px;
+  height:300px;
+  grid-template-columns: 2fr  1fr;
+  grid-template-rows:1fr 1fr;
+}
+.grid-item1{
+
+}
+/*===================/공통 스타일========================*/
+
+.d-flex{
+    display: flex;
+}
+
+.d-none{
+    display: none;
+    
+}
+
+.jusitify-center{
+    justify-content: center;
+}
+
+.jusitify-right{
+    justify-content: right;
+}
+
+.jusitify-left{
+    justify-content: left;
+}
+
+.jusitify-between{
+    justify-content: space-between;
+}
+
+.pos-absolute{
+    position:absolute;
+}
+.pos-relative{
+    position:relative;
+}
+
+.overflow{
+    overflow:hidden;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.font-bold{
+    font-weight:bold;
+}
+
+.gap1{
+    gap:1rem
+}
+
+.gap2{
+    gap:2rem
+}
+
+.gap3{
+    gap:3rem
+}
+
+.my1{
+    margin:1rem 0;
+}
+
+.my2{
+    margin:2rem 0;
+}
+
+.my3{
+    margin:3rem 0;
+}
+.mx1{
+    margin:0 1rem;
+}
+
+.mx2{
+    margin:0 2rem;
+}
+
+.mx3{
+    margin: 0 3rem;
+}
+
+.py1{
+    padding:1rem 0;
+}
+
+.py2{
+    padding:2rem 0;
+}
+
+.py3{
+    padding:3rem 0;
+}
+.px1{
+    padding:0 1rem;
+}
+
+.px2{
+    padding:0 2rem;
+}
+
+.px3{
+    padding: 0 3rem;
+}
+
+
+
